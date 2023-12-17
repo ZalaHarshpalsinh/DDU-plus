@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notice Board</title>
+</head>
+<body>
+    <h1>
+        <a href="home.html">DDU+</a>
+    </h1>
+    <hr>
+    <nav>
+        <ul>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="notice_board.html">Notice Board</a></li>
+            <li>
+                <input type="search"  id="search" placeholder="Search People,Departments and Clubs" value="sanket">
+                <input type="button" value="Filters">
+                <div>
+                    Demo search reults
+                    <ul>
+                        <li><a href="demo_profile.html">Sanket Gupta | CE | sem 4</a></li>
+                        <li><a href="demo_profile.html">Sanketkumar Joshi  | EC | sem 2</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="landing_page.html">Logout</a></li>
+        </ul>
+    </nav>
+    <hr>
+    <div>
+        <h2>{For faculties,club admin and department admins only}</h2>
+        <h3>Share a notice</h3>
+        <form action="#">
+            <div>
+                <label for="share-as">Share as: </label>
+                <select  id="share-as">
+                    <option value="Person">Prof.XYz</option>
+                    <option value="Group">XYZ Department</option>
+                </select>
+            </div>
+            <div>
+                <label for="content">Content</label>
+                <textarea id="content"></textarea>
+            </div>
+            <div>
+                <label >Recipients: </label>
+                <input type="checkbox" id="recipients" name="">All
+                <input type="checkbox" id="recipients" name="">CE
+                <input type="checkbox" id="recipients" name="">IT
+                <input type="checkbox" id="recipients" name="">EC
+                <input type="checkbox" id="recipients" name="">MCH
+                <input type="checkbox" id="recipients" name="">CL
+                <input type="checkbox" id="recipients" name="">CH
+            </div>
+            <div>
+                <input type="submit" value="Post">
+            </div>
+        </form>
+    </div>
+    <hr>
+    <h1>Notice Board</h1>
+    <hr>
+    <div>
+        <h2>Posted by : XYZ person</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quas velit doloremque provident mollitia quaerat quasi atque saepe maxime laborum? Consectetur itaque ducimus alias modi in, et reprehenderit corrupti tempore?</p>
+    </div>
+    <hr>
+    <div>
+        <h2>Posted by : XYZ person</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi quas velit doloremque provident mollitia quaerat quasi atque saepe maxime laborum? Consectetur itaque ducimus alias modi in, et reprehenderit corrupti tempore?</p>
+    </div>
+    <hr>
+    <h3>Copywrite &copy;DDU+</h3>
+</body>
+</html>
